@@ -1,4 +1,4 @@
-  Logic of code:
+Logic of code:
 search:
 We write a helper function called tree_search(), this function helps us to find the LeafNode that contains the key that we need to search. In this helper function, we use recursion to traverse the tree from the root, and return the child node contains the search key of the input node. After return the LeafNode to the function search(), we traverse all the keys of this LeafNode, if it contains the search key, return the value of this key, else return null.
 
