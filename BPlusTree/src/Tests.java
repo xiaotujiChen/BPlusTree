@@ -1,7 +1,8 @@
-import static org.junit.Assert.*;
+import static junit.framework.Assert.*;
 
 import java.util.ArrayList;
 import java.util.Collections;
+
 
 import org.junit.Test;
 

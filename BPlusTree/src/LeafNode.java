@@ -30,13 +30,15 @@ public class LeafNode<K extends Comparable<K>, T> extends Node<K, T> {
 	 * @param value
 	 */
 	public void insertSorted(K key, T value) {
+		//this key is less than the minimum key
 		if (key.compareTo(keys.get(0)) < 0) {
 			keys.add(0, key);
 			values.add(0, value);
 		} else if (key.compareTo(keys.get(keys.size() - 1)) > 0) {
+			//this key is larger than the maximum key
 			keys.add(key);
 			values.add(value);
-		} else {
+		} else {// insert the key into the proper position
 			ListIterator<K> iterator = keys.listIterator();
 			while (iterator.hasNext()) {
 				if (iterator.next().compareTo(key) > 0) {

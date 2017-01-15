@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="junit">
+    <archive path="/Applications/IntelliJ IDEA 15.app/Contents/lib/junit.jar" />
+  </library>
+  <library name="junit-4.12">
+    <archive path="/Applications/IntelliJ IDEA 15.app/Contents/lib/junit-4.12.jar" />
+  </library>
+</eclipse-userlibraries>
+
